@@ -1,0 +1,9 @@
+name: ChunkHopper
+version: '1.0-SNAPSHOT'
+main: me.iexception.chunkHopper.Core
+api-version: '1.21'
+description: "Chunkhopper plugin. Made for KnaagdierNetwork"
+commands:
+  chunkhopper:
+    aliases: [ch, chunkh, chunkhop]
+    description: "Main command"

@@ -1,0 +1,22 @@
+prefix: "&c&lHOPPERS &8»"
+chest-limit: 2 # Max hoppers that can be linked to a chest.
+max-players: 4 # The max 1 hopper can have added.
+settings:
+  common-hopper: 120 # In ticks. 20 ticks = 1 second.
+  rare-hopper: 60
+  legendary-hopper: 20
+
+item-settings: # The amount of items moved.
+  common-hopper: 16
+  rare-hopper: 32
+  legendary-hopper: 64
+
+########################################################
+#                      Database                        #
+########################################################
+mysql:
+  enable: false # Default is false.
+  host: "127.0.0.1:3306"
+  database: "ChunkHoppers"
+  user: "iException"
+  password: "ChunkHoppers"
